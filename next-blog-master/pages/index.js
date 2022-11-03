@@ -35,8 +35,6 @@ export default function Home({ posts }) {
       <div className={styles.main}>
         <h1>Welcome To My Blog</h1>
 
-        <h3>Recent Posts:</h3>
-
         <div className={styles.feed}>
           {mappedPosts.length ? (
             mappedPosts.map((p, index) => (
